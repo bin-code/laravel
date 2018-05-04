@@ -18,6 +18,7 @@ Route::get('/', function () {
 Route::get('user/{id}', 'UserController@show')->middleware('token');
 //Route::get('test', 'UserController@test');
 //Route::get('token', 'UserController@token');
+
 //Route::group(['middleware'=>['blog']],function(){
 //    Route::get('/', function () {
 //        return view('welcome', ['website' => 'Laravel']);
